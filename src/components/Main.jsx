@@ -131,7 +131,7 @@ const Main = ({ theme, setTheme }) => {
   return (
     <>
       <DragDropContext onDragEnd={reorderList}>
-        <div className="font-josefin-sans relative flex min-w-[250px] items-baseline justify-center overflow-auto bg-light-gray-50 pt-[160px] font-medium  dark:bg-dark-gray-50">
+        <div className="font-josefin-sans relative flex h-screen min-w-[250px] items-baseline justify-center overflow-auto bg-light-gray-50 pt-[160px] font-medium  dark:bg-dark-gray-50">
           <img
             src={imageUrl}
             alt="background"
